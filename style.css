@@ -1,0 +1,182 @@
+* body{
+    background-image: url(bg-image.jpg);
+    background-size: cover;
+}
+
+
+.banner-container{
+    background: none;
+}
+.banner-row{
+    background: none;
+}
+.banner-col{
+    background: none;
+}
+.banner-img{
+    background: none;
+}
+
+  
+.btn-shine{
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    /* padding: 12px 48px; */
+    color: #d7d7d7;
+    background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+        
+    @keyframes shine{
+    0%{
+        background-position: 0;
+    }
+    60%{
+        background-position: 180px;
+    }
+    100%{
+        background-position: 180px;
+    }
+}
+
+.shining_logo{
+    background-color: #249dc5;
+    padding: 10px 30px 10px 30px;
+    border-top-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+}
+
+.nav-text{
+    color: white !important;
+}
+.icon{
+    background-color: #249dc5;
+    border-radius: 50%;
+    padding: 15px 20px 15px 20px;
+}
+
+.box{
+    color: white;
+    height: 100%;
+}
+.in_box{
+    background-image: url(blue--bg.png);
+    background-size: cover;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    height: 100%;
+}
+.cartoon{
+    overflow: hidden;
+
+    .cartoon_image{
+        width: 100%;
+        height: auto;
+    }
+}
+.tag_line{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+
+    .tag1{
+        color: #249dc5;
+    }
+    .tag2{
+        color: #f0a500;
+    }
+}
+
+.time{
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-left: 30%;
+}
+
+
+.contact{
+    color: antiquewhite;
+}
+
+.images{
+    margin-bottom: 10px;
+}
+.map{
+    border-radius: 50px;
+}
+
+/* Responsive Design */
+/* Extra small devices (phones) */
+@media only screen and (max-width: 600px) {
+    .banner-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .cartoon_image{
+        width: 40px;
+        height: 40px;
+    }
+
+    .scentence{
+        font-size: x-small;
+        padding-top: 20px;
+    }
+
+    .tag1, .tag2{
+        font-size: small;
+    }
+
+    .contact{
+        h1{
+            font-size: large;
+        }
+        p{
+            font-size: small;
+        }
+    }
+}
+
+/* Small devices (tablets) */
+@media only screen and (min-width: 600px) {
+    .banner-img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Medium devices (landscape tablets) */
+@media only screen and (min-width: 768px) {
+    .banner-img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 992px) {
+    .banner-img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Extra large devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+    .banner-img{
+        width: 100%;
+        height: auto;
+    }
+}
